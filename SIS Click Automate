@@ -1,0 +1,42 @@
+#Program to Automate Mouse Cursor movement on SIS GUI Monitor has resolution 1680x1050 #
+
+# Coordinates for various places in SIS has been copied and used as per 1920x1080#
+
+import pyautogui
+
+# Coordinates SIS
+
+
+# Alarm & Event
+pyautogui.moveTo(86, 125, duration=5)
+pyautogui.click(86, 125)
+
+
+# Alarm List
+pyautogui.moveTo(76, 162, duration=5)
+pyautogui.click(76, 162)
+
+# Close Alarm List
+pyautogui.moveTo(788, 872, duration=5)
+pyautogui.click(788, 872)
+# Event List
+pyautogui.moveTo(76, 186, duration=5)
+pyautogui.click(76, 186)
+
+# Close Event List
+pyautogui.moveTo(788, 872, duration = 5)
+pyautogui.click(788, 872)
+
+# Integrated Site Services
+pyautogui.moveTo(76, 236, duration=5)
+pyautogui.click(76, 236)
+
+# Administration (76,260)
+pyautogui.moveTo(76, 260, duration=5)
+pyautogui.click(76, 260)
+# DQM(293,286)
+pyautogui.moveTo(293, 286, duration=10)
+
+# PFM (400,227)
+pyautogui.moveTo(400, 227, duration=15)
+pyautogui.click(400, 227)
